@@ -32,6 +32,10 @@ the main of calculate_alter.py is interface contained of 4 input:
 3.isKeepProposal : is the result of proposal network need to be retained
 3.isKeepLoc : is the result of localization network need to be retained
 
+the model of proposal network is on ./models/:
+SCNN_uniform16_binary_iter_30000 is model for 4-class network
+SCNN_uniform16_binary_bgaciton_iter_50000 is model for 2-class network
+
 the output of main method is seg_swin which is same defined as S-CNN(https://github.com/zhengshou/scnn)
 
 
